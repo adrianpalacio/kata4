@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class TrackLoader {
+package software.ulpgc.kata4;
+
+import java.util.List;
+
+public interface TrackLoader {
+    List<Track> loadAll();
 }
+
